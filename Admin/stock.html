@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Management - AutoFix Garage</title>
+  <link rel="stylesheet" href="AdminStyle.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>AutoFix 🚗</h2>
+    <ul>
+      <li><a href="Home.html">🏠 Home</a></li>
+      <li><a href="stock.html" class="active">🧰 Stock</a></li>
+      <li><a href="expenses.html">💰 Expenses</a></li>
+      <li><a href="Employee.html">👨‍🔧 Employees</a></li>
+      <li><a href="Settings.html">⚙️ Settings</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard">
+    <header>
+      <h1>Stock Management</h1>
+      <p>Track your parts and materials in real-time.</p>
+    </header>
+
+    <section class="stock-table">
+      <table>
+        <tr><th>Part</th><th>Quantity</th><th>Status</th></tr>
+        <tr><td>Engine Oil</td><td>45</td><td>In Stock</td></tr>
+        <tr><td>Brake Pads</td><td>12</td><td>Low Stock</td></tr>
+        <tr><td>Air Filters</td><td>30</td><td>In Stock</td></tr>
+        <tr><td>Spark Plugs</td><td>8</td><td>Low Stock</td></tr>
+      </table>
+
+      <button class="btn">Order More Parts</button>
+    </section>
+
+    <section class="chart-section">
+      <h2>Parts Usage (Last 3 Months)</h2>
+
+
+      <img src="graph1.png" alt="Stock chart" class="chart-img">
+    </section>
+  </main>
+
+</body>
+</html>

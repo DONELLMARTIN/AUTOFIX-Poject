@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Overview - AutoFix Garage</title>
+    <link rel="stylesheet" href="AdminStyle.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <h2>AutoFix 🚗</h2>
+        <ul>
+            <li><a href="Home.html">🏠 Home</a></li>
+            <li><a href="stock.html">🧰 Stock</a></li>
+            <li><a href="expenses.html" class="active">💰 Expenses</a></li>
+            <li><a href="Employee.html">👨‍🔧 Employees</a></li>
+            <li><a href="Settings.html">⚙️ Settings</a></li>
+        </ul>
+    </aside>
+
+    <main class="dashboard">
+        <header>
+            <h1>Financial Overview</h1>
+            <p>Monthly income, expenses, and profits overview.</p>
+        </header>
+
+        <section class="finance-summary">
+            <div class="card">
+                <h3>Total Balance</h3>
+                <p style="color: green;">₹ 5,800,000</p>
+            </div>
+            <div class="card">
+                <h3>Expenses</h3>
+                <p style="color: red;">₹ 2,15,000</p>
+            </div>
+            <div class="card">
+                <h3>Income</h3>
+                <p>₹ 9,90,000</p>
+            </div>
+        </section>
+
+        <section class="finance-table">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount (₹)</th>
+                </tr>
+                <tr>
+                    <td>2025-10-05</td>
+                    <td>New Tools</td>
+                    <td>45,000</td>
+                </tr>
+                <tr>
+                    <td>2025-10-12</td>
+                    <td>Parts Restock</td>
+                    <td>60,000</td>
+                </tr>
+                <tr>
+                    <td>2025-10-18</td>
+                    <td>Salaries</td>
+                    <td>5,10,000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="chart-section">
+            <h2>Income vs Expenses</h2>
+            <img src="graph.png" alt="Finance Chart" class="chart-img">
+        </section>
+    </main>
+
+</body>
+
+</html>
